@@ -8,4 +8,3 @@ if numero1 < numero2:
         print("não está em ordem crescente")
 else:
     print("não está em ordem crescente")
-    
