@@ -1,11 +1,12 @@
 numero = int(input("Digite um número inteiro: "))
-soma = 0
-referencia = len(str(numero))
-#123 %10 = 3
-#len = 3
-#123 // 10 = 12
-while referencia != 0:
-    soma += (numero % 10)
+teste_iguais = False
+while numero > 0 and teste_iguais:
+    ultimo_numero = numero % 10
+    penultimo_numero = (numero % 10) - (ultimo_numero)
+    if ultimo_numero == penultimo_numero:
+        teste_iguais = True
     numero = numero // 10
-    referencia -= 1
-print(soma)
+if teste_iguais == True:
+    print("sim")
+else:
+    print("não")

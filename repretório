@@ -1,0 +1,12 @@
+- Recebe o número inteiro;
+- Uma variável_teste para ver se são iguais recebe False;
+- Uma variável vai receber o último número;
+- Outra variavel vai receber o penultimo número;
+- Testar se os dois numeros são iguais;
+- Se forem iguais a variavel_teste recebe True;
+- O número vai perder uma casa decimal ;
+- E o processo recomeça a partir do 3º passo;
+- Condição para a repetição vai ser enquanto variável_teste for False ou que o número seja menor que 0;
+- Se ao final da contagem variavel_teste for True, imprimir 'sim';
+- Caso contrário, imprimir 'não';
+

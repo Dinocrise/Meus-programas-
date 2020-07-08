@@ -1,9 +1,13 @@
-numero = int(input("Digite o valor de n: "))
-impar = 1
-if numero > 0:
-    while numero != 0:
-        print(impar)
-        impar += 2
-        numero -= 1
+numero = int(input("Digite um número inteiro: "))
+referencia = numero
+ref = 0
+while numero != 1:
+    divisao = referencia % numero
+    if divisao == 0:
+        ref += 1
+    numero -= 1
+if ref == 1:
+    print("primo")
 else:
-    print("Só numeros positivo please")
+    print("não primo")
+
