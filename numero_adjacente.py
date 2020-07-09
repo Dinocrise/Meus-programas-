@@ -11,6 +11,7 @@ while numero // 10 > 0 or numero_igual:
     if numero <= 0:
         break
    # else:
+
     #    print("nada iguais")
 if numero_igual:
     print("Tem numeros iguais")
