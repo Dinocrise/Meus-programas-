@@ -1,0 +1,8 @@
+Escreva a função maior_primo que recebe um número inteiro maior ou igual a 2 como parâmetro e devolve o
+ maior número primo menor ou igual ao número passado à função;
+
+- Entrar com o número;
+- Testar se esse numero é primo;
+- Se ele for primo, eu retorno esse numero;
+- Se não for primo, eu diminuo um desse numero e teste se esse outro numero é primo;
+- Se esse outro número for primo, eu retorno esse número;
